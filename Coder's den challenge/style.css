@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* GENERAL STYLES */
+
+body {
+  background-color: #fafafa;
+  font-family: Poppins, sans-serif;
+  text-rendering: geometricPrecision;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 2.56rem;
+  letter-spacing: -3px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.357rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+div img {
+  width: 170px;
+  margin-bottom: 0.8em;
+}
+
+div.col-md-4 {
+  margin-bottom: 3em;
+}
+
+p {
+  font-weight: 500;
+  margin: 0;
+}
+
+.h-p {
+  margin-bottom: 4em;
+}
+
+.align-end {
+  position: relative;
+  top: 3.5em;
+}
+
+.col-6 p {
+  font-family: "PT Serif";
+  font-size: 10px;
+}
+
+/* TEXT ROTATION */
+
+.lead-1 {
+  position: relative;
+}
+
+.lead-1::after {
+  content: "PRODUCT OWNER";
+  font-family: "PT Serif";
+  font-size: 10px;
+  position: absolute;
+  transform: rotate(-90deg) scale(-1, -1);
+  right: -5.4em;
+  top: -7.5em;
+}
+
+.lead-2 {
+  position: relative;
+}
+
+.lead-2::after {
+  content: "ART DIRECTOR";
+  font-family: "PT Serif";
+  font-size: 10px;
+  position: absolute;
+  transform: rotate(-90deg) scale(-1, -1);
+  right: -4.7em;
+  top: -8.5em;
+}
+
+.lead-3 {
+  position: relative;
+}
+
+.lead-3::after {
+  content: "TECH LEAD";
+  font-family: "PT Serif";
+  font-size: 10px;
+  position: absolute;
+  transform: rotate(-90deg) scale(-1, -1);
+  right: -4em;
+  top: -9em;
+}
+
+.lead-4 {
+  position: relative;
+}
+
+.lead-4::after {
+  content: "UX DESIGNER";
+  font-family: "PT Serif";
+  font-size: 10px;
+  position: absolute;
+  transform: rotate(-90deg) scale(-1, -1);
+  right: -4.5em;
+  top: -8.4em;
+}
+
+.lead-5 {
+  position: relative;
+}
+
+.lead-5::after {
+  content: "DEVELOPER";
+  font-family: "PT Serif";
+  font-size: 10px;
+  position: absolute;
+  transform: rotate(-90deg) scale(-1, -1);
+  right: -4em;
+  top: -8.9em;
+}
+
+.lead-6 {
+  position: relative;
+}
+
+.lead-6::after {
+  content: "DEVELOPER";
+  font-family: "PT Serif";
+  font-size: 10px;
+  position: absolute;
+  transform: rotate(-90deg) scale(-1, -1);
+  right: -3.7em;
+  top: -8.8em;
+}
+
+/* !  MEDIA QUERIES */
+@media (min-width: 568px) and (max-width: 768px) {
+  div img {
+    width: 200px;
+  }
+
+  .h-p {
+    width: 438px;
+  }
+}
+
+@media (min-width: 804px) {
+  div img {
+    width: 238px;
+  }
+
+  .h-p {
+    width: 438px;
+  }
+}
+
+@media (max-width: 426px) {
+  .lead-1::after {
+    top: -5.5em;
+  }
+
+  .lead-2::after {
+    top: -6em;
+  }
+
+  .lead-3::after {
+    top: -7em;
+  }
+
+  .lead-4::after {
+    top: -6em;
+  }
+
+  .lead-5::after {
+    top: -6.5em;
+  }
+
+  .lead-6::after {
+    top: -6.5em;
+  }
+}
+
+@media (min-width: 956px) {
+  .lead-1::after,
+  .lead-2::after,
+  .lead-3::after,
+  .lead-4::after,
+  .lead-5::after,
+  .lead-6::after {
+    top: -12em;
+  }
+}
+
+@media (min-width: 972px) and (max-width: 991px) {
+  .lead-1::after {
+    top: -9em;
+  }
+
+  .lead-2::after {
+    top: -10em;
+  }
+
+  .lead-3::after {
+    top: -10.5em;
+  }
+
+  .lead-4::after {
+    top: -10em;
+  }
+
+  .lead-5::after {
+    top: -10.6em;
+  }
+
+  .lead-6::after {
+    top: -10.6em;
+  }
+}
+
+@media (max-width: 366px) {
+  .lead-1::after,
+  .lead-2::after,
+  .lead-3::after,
+  .lead-4::after,
+  .lead-5::after,
+  .lead-6::after {
+    top: -5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-5 {
+    position: relative;
+
+    top: 7.5em;
+  }
+
+  .h-p {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1244px) {
+  .m-l {
+    margin-left: -4em;
+    overflow: hidden;
+  }
+}
